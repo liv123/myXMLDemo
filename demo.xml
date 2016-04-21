@@ -1,17 +1,120 @@
-<MyResumeFiles>
-	<MyResumeFile>
-		<Name>Olivia</Name>
-		<phone type="mobile" primary="primary">(415) 555-4567</phone>
-		<phone type="work">(800) 555-9876</phone>
-		<phone type="fax">(510) 555-1234</phone>
-		<email>joe@joe.com</email>
-	</MyResumeFile>
-   
-	<BusinessCard>
-		<Name>Someone Else</Name>
-		<phone type="mobile">(415) 555-0000</phone>
-		<phone type="work" primary="primary">(800) 555-1111</phone>
-		<phone type="fax">(510) 555-2222</phone>
-		<email>someone@else.com</email>
-	</BusinessCard>
-</BusinessCards>
+<resume>
+  <header>
+    <name>
+      <firstname>Olivia</firstname>
+      <surname>E</surname>
+    </name>
+  
+    <address>
+      <city>San Francisco</city>
+      <state>CA</state>
+    </address>
+    
+  </header>
+
+  <objective>
+    <para> Creative and technical project coordinator and travel writer, interested <emphasis>and experienced</emphasis> in web development 
+    </para>
+  </objective>
+
+  <history>
+    <job>
+      <jobtitle>Project Coordinator</jobtitle>
+      <employer>U.S. Bank</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>March</month>
+	    <year>2011</year>
+	  </date>
+	</from>
+	<to>
+	  	<date>
+		    <month>August</month>
+		    <year>2015</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>Managed special projects related to internal training and events for 5 SVPs in my division. 
+	</para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Sales Assistant</jobtitle>
+      <employer>U.S. Bank</employer>
+      <period>
+		<from>
+		  <date>
+		    <month>February</month>
+		    <year>2007</year>
+		  </date>
+		</from>
+		<to>
+		  <date>
+		    <month>March</month>
+		    <year>2011</year>
+		  </date>
+		</to>
+      </period>
+      <description>
+		<para>Created marketing materials such as postcards and flyers for our 50 brokers.Analyzed Small Business Administration loan packages to ensure compliance with underwriting SOP.
+		</para>
+      </description>
+    </job>
+  </history>
+
+  <academics>
+    <degrees>
+      <degree>
+		<level>Web Development Immersive Certificate</level>
+		<date>
+		  <month>October</month>
+		  <year>2015</year>
+		</date>
+		<institution>General Assembly</institution>
+		<annotation>
+		  Learned full-stack web development by attending a full time, 3 month program, building multiple web apps, and completing daily coding challenges. 
+		</annotation>
+      </degree>
+
+
+      <degree>
+		<level>B.A.</level>
+		<major>Arts and Literature Major</major>
+		<date>
+		  <month>August</month>
+		  <year>2006</year>
+		</date>
+		<institution>Antioch University, Seattle</institution>
+		<annotation>
+		  Publishing and Design focus. Lead Designer and Associate Editor of Knock Journal, a 500 run, nationally distributed literary journal.
+		</annotation>
+      </degree>
+
+
+      <degree>
+		<level>Undergraduate Studies</level>
+		<major>Biology Major</major>
+		<date>
+		  <month></month>
+		  <year>2000 to 2002</year>
+		</date>
+		<institution>Mills College</institution>
+		<annotation>
+		</annotation>
+      </degree>
+    </degrees>
+  </academics>
+
+  <skillarea>
+    <title>Special Skills</title>
+    <skillset>
+      <skill>HTML, CSS, Salesforce, SharePoint, Siebel, Lotus Notes, Box, JavaScript, Ruby on Rails, Angular, jQuery, NodeJS, Express, MongoDB, PostgreSQL, Heroku, GitHub/Git, pair programming, Bootstrap, Adobe Indesign
+      </skill>
+    </skillset>
+  </skillarea>
+
+    
+</resume>
